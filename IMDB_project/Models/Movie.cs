@@ -11,7 +11,7 @@ namespace IMDB_project.Models
         public int id { get; set; }
         public string name { get; set; }
         public string desc { get; set; }
-        public int genre { get; set; }
+        public string genre { get; set; }
         public string imge { get; set; }
     }
 }
